@@ -1,0 +1,12 @@
+# PulseAI User Preferences
+# Default configuration
+
+# Base API endpoint
+# Change if testing locally (e.g. http://localhost:8000/api/feed/)
+api_host: "https://inbrief.info/api/feed/"
+
+# Default filtering logic. Command line arguments override these.
+# include_categories: ""
+# exclude_categories: ""
+# include_sources: ""
+# exclude_sources: ""
