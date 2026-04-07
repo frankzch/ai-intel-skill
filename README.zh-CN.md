@@ -26,6 +26,14 @@ Your-Chief-AI-Intelligence-Officer 是一个可以获取实时、全面、深度
 ### 🌟 数据抓取由 InBrief.info 驱动
 此 Agent Skill背后的全网AI信息数据处理由 **[InBrief.info](https://inbrief.info)** 免费驱动。如果你只想直接通过网页查阅最新、最优质的 AI 资讯，强烈推荐直接访问 **[InBrief.info](https://inbrief.info)** 获取个性化的专属简报，无需折腾任何 Agent！
 
+<p align="center">
+  <img src="./assets/screenshot_news.png" alt="新闻" width="48%">
+  <img src="./assets/screenshot_social.png" alt="社媒" width="48%">
+</p>
+<p align="center">
+  <img src="./assets/screenshot_video.png" alt="视频" width="48%">
+  <img src="./assets/screenshot_opensource.png" alt="开源" width="48%">
+</p>
 
 ### ⚡ 快速开始
 1. 在你的 AI agent 中安装此 skill（支持 OpenClaw, Claude Code, Antigravity, Codex）
