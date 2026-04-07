@@ -1,6 +1,6 @@
 # AI Intelligence Skill
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/frankzch/ai-intelligence-skill/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/frankzch/ai-news-skill/blob/main/LICENSE)
 [![Agent Skills](https://img.shields.io/badge/AgentSkills-compatible-blue)](https://agentskills.io/)
 
 [English](./README.en.md) | [中文](./README.md)
@@ -35,22 +35,22 @@
 **OpenClaw**
 ```bash
 # 目前为手动安装，后期会提交到 ClawHub
-git clone https://github.com/frankzch/ai-intel-skill.git ~/skills/ai-intel-skill
+git clone https://github.com/frankzch/ai-news-skill.git ~/skills/ai-news-skill
 ```
 
 **Claude Code**
 ```bash
-git clone https://github.com/frankzch/ai-intel-skill.git ~/.claude/skills/ai-intel-skill
+git clone https://github.com/frankzch/ai-news-skill.git ~/.claude/skills/ai-news-skill
 ```
 
 **Antigravity Agent**
 ```bash
-git clone https://github.com/frankzch/ai-intel-skill.git ~/.agents/skills/ai-intel-skill
+git clone https://github.com/frankzch/ai-news-skill.git ~/.agents/skills/ai-news-skill
 ```
 
 **Codex**
 ```bash
-git clone https://github.com/frankzch/ai-intel-skill.git ~/.codex/skills/ai-intel-skill
+git clone https://github.com/frankzch/ai-news-skill.git ~/.codex/skills/ai-news-skill
 ```
 
 ### 🎛️ 修改设置与过滤

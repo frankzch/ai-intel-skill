@@ -5,7 +5,7 @@ Thanks for your interest in contributing to AI Intelligence Skill! 🎉
 ## How to Contribute
 
 ### 🐛 Report Bugs
-- Open an [Issue](https://github.com/frankzch/ai-intelligence-skill/issues) with a clear description
+- Open an [Issue](https://github.com/frankzch/ai-news-skill/issues) with a clear description
 - Include your agent platform (Claude Code, Antigravity, Codex, OpenClaw)
 - Attach any error output from `pulse_fetcher.py`
 
@@ -33,8 +33,8 @@ We welcome first-time contributors! Look for issues tagged with `good first issu
 ## Development Setup
 
 ```bash
-git clone https://github.com/frankzch/ai-intelligence-skill.git
-cd ai-intelligence-skill
+git clone https://github.com/frankzch/ai-news-skill.git
+cd ai-news-skill
 
 # Option 1: Using uv (recommended, zero-setup)
 uv run scripts/pulse_fetcher.py --limit 5
@@ -47,7 +47,7 @@ python scripts/pulse_fetcher.py --limit 5
 ## Project Structure (AgentSkills Standard)
 
 ```
-ai-intelligence-skill/
+ai-news-skill/
 ├── SKILL.md              # Required: metadata + agent instructions
 ├── scripts/              # Executable scripts
 │   └── pulse_fetcher.py  # Main fetcher (PEP 723 self-contained)

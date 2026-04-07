@@ -4,7 +4,7 @@
   <img src="./assets/logo.jpg" alt="AI Intelligence Skill" width="600">
 </p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/frankzch/ai-intelligence-skill/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/frankzch/ai-news-skill/blob/main/LICENSE)
 [![Agent Skills](https://img.shields.io/badge/AgentSkills-compatible-blue)](https://agentskills.io/)
 
 [English](./README.en.md) | [中文](./README.md)
@@ -39,22 +39,22 @@ Install this skill into your AI agent (supports OpenClaw, Claude Code, Antigravi
 **OpenClaw**
 ```bash
 # Currently manual installation, will be submitted to ClawHub later
-git clone https://github.com/frankzch/ai-intel-skill.git ~/skills/ai-intel-skill
+git clone https://github.com/frankzch/ai-news-skill.git ~/skills/ai-news-skill
 ```
 
 **Claude Code**
 ```bash
-git clone https://github.com/frankzch/ai-intel-skill.git ~/.claude/skills/ai-intel-skill
+git clone https://github.com/frankzch/ai-news-skill.git ~/.claude/skills/ai-news-skill
 ```
 
 **Antigravity Agent**
 ```bash
-git clone https://github.com/frankzch/ai-intel-skill.git ~/.agents/skills/ai-intel-skill
+git clone https://github.com/frankzch/ai-news-skill.git ~/.agents/skills/ai-news-skill
 ```
 
 **Codex**
 ```bash
-git clone https://github.com/frankzch/ai-intel-skill.git ~/.codex/skills/ai-intel-skill
+git clone https://github.com/frankzch/ai-news-skill.git ~/.codex/skills/ai-news-skill
 ```
 
 ### 🎛️ Modifying Settings & Filters

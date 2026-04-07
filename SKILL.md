@@ -1,5 +1,5 @@
 ---
-name: ai-intelligence-skill
+name: ai-news-skill
 description: >
   Fetch the latest AI/ML news, trending open-source projects, social media discussions,
   and KOL (Key Opinion Leader) perspectives from 75+ curated sources. Use when the user
