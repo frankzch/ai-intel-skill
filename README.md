@@ -1,5 +1,9 @@
 # Your-Chief-AI-Intelligence-Officer 
 
+<p align="center">
+  <img src="./assets/logo.jpg" alt="Your Chief AI Intelligence Officer" width="600">
+</p>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/frankzch/Your-Chief-AI-Intelligence-Officer/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/frankzch/Your-Chief-AI-Intelligence-Officer?style=social)](https://github.com/frankzch/Your-Chief-AI-Intelligence-Officer/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/frankzch/Your-Chief-AI-Intelligence-Officer)](https://github.com/frankzch/Your-Chief-AI-Intelligence-Officer/issues)
