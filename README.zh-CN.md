@@ -1,7 +1,7 @@
 # Your-Chief-AI-Intelligence-Officer
 
 <p align="center">
-  <img src="./assets/logo.jpg" alt="Your Chief AI Intelligence Officer" width="600">
+  <img src="./assets/logo_zh.png" alt="你的首席AI情报官" width="600">
 </p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/frankzch/Your-Chief-AI-Intelligence-Officer/blob/main/LICENSE)

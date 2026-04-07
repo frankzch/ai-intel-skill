@@ -27,12 +27,12 @@ Your-Chief-AI-Intelligence-Officer is an **AI Agent Skill** that fetches real-ti
 The data processing behind this Agent Skill is powered for free by **[InBrief.info](https://inbrief.info)**. If you just want to browse the latest, highest-quality AI news directly via a web page, we highly recommend visiting **[InBrief.info](https://inbrief.info)** for your personalized daily briefing — no Agent setup needed!
 
 <p align="center">
-  <img src="./assets/screenshot_news.png" alt="News" width="48%">
-  <img src="./assets/screenshot_social.png" alt="Social" width="48%">
+  <img src="./assets/screenshot_news_en.png" alt="News" width="48%">
+  <img src="./assets/screenshot_social_en.png" alt="Social" width="48%">
 </p>
 <p align="center">
-  <img src="./assets/screenshot_video.png" alt="Video" width="48%">
-  <img src="./assets/screenshot_opensource.png" alt="Open Source" width="48%">
+  <img src="./assets/screenshot_video_en.png" alt="Video" width="48%">
+  <img src="./assets/screenshot_opensource_en.png" alt="Open Source" width="48%">
 </p>
 
 ### ⚡ Quick Start
