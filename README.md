@@ -1,4 +1,4 @@
-# AI Intelligence Skill
+# AI News Skill
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/frankzch/ai-news-skill/blob/main/LICENSE)
 [![Agent Skills](https://img.shields.io/badge/AgentSkills-compatible-blue)](https://agentskills.io/)

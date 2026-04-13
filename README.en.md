@@ -1,4 +1,4 @@
-# AI Intelligence Skill
+# AI News Skill
 
 <p align="center">
   <img src="./assets/logo.jpg" alt="AI Intelligence Skill" width="600">
