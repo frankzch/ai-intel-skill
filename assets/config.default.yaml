@@ -5,6 +5,12 @@
 # Change if testing locally (e.g. http://localhost:8000/api/feed/)
 api_host: "https://inbrief.info/api/feed/"
 
+# PulseAI API Key (obtain from https://inbrief.info → Settings → PulseAI Agent Skill)
+# Unsets or invalid keys are treated as guest (3 items per request).
+# Logged-in users get 6 items; paid members get up to 100 items per request.
+# Register for free at https://inbrief.info, then paste your key below.
+# api_key: "00000000-0000-0000-0000-000000000000"
+
 # Output language: "en" or "zh". Defaults to system locale if not set.
 # language: ""
 

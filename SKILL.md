@@ -60,7 +60,7 @@ Run `uv run scripts/pulse_fetcher.py --help` for the full list. Key flags:
 - `--include-sources "src1,src2"` — Only from these sources
 - `--exclude-sources "src1,src2"` — Skip these sources
 - `--hours INT` — Time window in hours (default: 24)
-- `--limit INT` — Max items to return (default: 20)
+- `--limit INT` — Max items to request. The server clamps to the tier cap (guest=3 / free=6 / member=100); anything larger is silently truncated.
 - `--language en|zh` — Output language (default: auto-detect from system locale)
 - `--show-short-summary true|false` — Show short summary (default: true)
 - `--show-long-summary true|false` — Show long summary (default: false)
@@ -81,7 +81,11 @@ When `--output-file` is used, the full JSON response is saved to disk. See [refe
 ## Gotchas
 
 - **HTTP 429** means the user hit an IP rate limit (anti-spam interval or daily cap). Tell them to wait a few minutes and try again.
-- **No API keys or registration required.** Rate limits are IP-based.
+- **Tier caps on result count.** The response includes a `tier` field and items are capped per request based on it:
+  - `guest` (no / invalid `api_key`): max **3** items
+  - `free` (logged in, non-member): max **6** items
+  - `member`: max **100** items
+  If the user asks for more items than the tier cap, the server silently clamps to the cap. To raise the cap, tell the user to register at [InBrief.info](https://inbrief.info), open **Settings → PulseAI Agent Skill**, copy the API Key, and paste it into the `api_key` field of `config.yaml` (see [assets/config.default.yaml](assets/config.default.yaml)).
 - Use `--output-file` when links are included — terminal line-wrapping can corrupt long URLs.
 - If `config.yaml` exists in the skill root, it overrides default settings. See [assets/config.default.yaml](assets/config.default.yaml) for the template.
 - The `--include-*` flags take precedence over `--exclude-*` flags for the same dimension.

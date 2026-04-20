@@ -24,6 +24,17 @@ This is an agent skill that fetches real-time, comprehensive, and deeply filtere
 ### 🌟 Powered by InBrief.info
 The data processing behind this Agent Skill is powered for free by **[InBrief.info](https://inbrief.info)**. If you just want to browse the latest, highest-quality AI news directly via a web page, we highly recommend visiting **[InBrief.info](https://inbrief.info)** for your personalized daily briefing — no Agent setup needed!
 
+> 🔑 **Register to unlock more results**
+> Per-request result caps by tier:
+> - **No / invalid API Key** (guest): up to **3 items** per request
+> - **Logged-in, non-member**: up to **6 items** per request
+> - **Member**: up to **100 items** per request
+>
+> To unlock higher tiers:
+> 1. Sign up for free at **[InBrief.info](https://inbrief.info)**
+> 2. Open **Settings → PulseAI Agent Skill** and copy your API Key
+> 3. Paste it into the `api_key` field of `config.yaml` at the skill root (copy the template from [`assets/config.default.yaml`](./assets/config.default.yaml))
+
 <p align="center">
   <img src="./assets/screenshot_news_en.png" alt="News" width="48%">
   <img src="./assets/screenshot_social_en.png" alt="Social" width="48%">
@@ -68,7 +79,7 @@ The agent automatically understands your intent and translates it into precise f
 - 📂 **Filter by Category** — Include or exclude content types: News, Open Source, Social Discussions, KOL Insights
 - 📡 **Filter by Source** — Include or exclude specific platforms (e.g., Reddit, TechCrunch, etc.)
 - ⏰ **Time Range** — Customize how far back to fetch (default: past 24 hours)
-- 🔢 **Result Limit** — Control the number of items returned (default: 20)
+- 🔢 **Result Limit** — Control the number of items returned (effective cap depends on tier: guest 3 / logged-in 6 / member 100)
 - 📝 **Summary Display** — Choose whether to show short summaries, long summaries
 - 🔗 **Link Display** — Choose whether to show original article links
 - 🌐 **Language** — Choose output language (English or Chinese). Defaults to your system language; falls back to English if neither

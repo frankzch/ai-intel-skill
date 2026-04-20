@@ -86,6 +86,13 @@ def main():
     apply_param("hours", args.hours)
     apply_param("limit", args.limit)
 
+    # Pass the PulseAI API Key so the server can identify the user and apply
+    # the appropriate tier cap (guest=3 / free=6 / member=100).
+    # If absent or invalid, the caller is treated as a guest.
+    api_key = config.get("api_key")
+    if api_key and str(api_key).strip():
+        params["api_key"] = str(api_key).strip()
+
     show_short = config.get("show_short_summary", True)
     if args.show_short_summary is not None:
         show_short = args.show_short_summary
